@@ -15,7 +15,9 @@ private ArrayList<Team> teams= new ArrayList<Team>();
 		
 		//Add yourself below here, Do not delete other Users
 		
-	
+		Student jamie = new Student("Jamie Caron", "Jcaron429@gmail.com", "Jcaron429");
+		jamie.preferTimeToMeet(Time.Night); // Choose Day/Night/Either
+		addStudent(jamie);
 		
 		
 		
